@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #c944c9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px 0 #020202;
+  transition: 0.2s;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+  background: rgb(red, green, blue);
+}
+
+button:hover {background-color: #882388}
+
+button:active {
+  background-color: #71A6E4;
+  box-shadow: 0 10px 15px 0 #020202;
+  transform: translateY(4px);
+}
